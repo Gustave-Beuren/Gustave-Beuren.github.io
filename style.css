@@ -6,12 +6,23 @@ div {
 	text-align: center;
 }
 
+#toppart {
+	background-image: linear-gradient(to right top, #d16ba5, #ca70b4, #bf76c2, #b27dcf, #a184db, #8c93eb, #71a1f7, #50aeff, #01c4ff, #00d8ff, #19ebfd, #5ffbf1);
+}
+
 p {
 	text-align: center;
 }
 
 img {
-	border-radius: 50%
+	border-radius: 50%;
+	margin: 20px;
+	border: 5px solid white;
+}
+
+h1 {
+	padding: 20px;
+	color: white;
 }
 
 #navbar ul { 
@@ -35,6 +46,6 @@ img {
  
 #navbar ul li a:hover { 
 	color: #000; 
-	background-color: #fff; 
+	background-color: #fff;
 	border-radius: 15px;
 	}
