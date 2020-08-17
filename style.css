@@ -6,12 +6,17 @@ div {
 	text-align: center;
 }
 
+/* Dit zorgt voor de gradient bij mn naam */
+
 #toppart {
 	background-image: linear-gradient(to right top, #d16ba5, #ca70b4, #bf76c2, #b27dcf, #a184db, #8c93eb, #71a1f7, #50aeff, #01c4ff, #00d8ff, #19ebfd, #5ffbf1);
 }
 
+/* TO DO: dit verbeteren en wegwerken!!! */
+
 p {
 	text-align: center;
+	padding: 20px;
 }
 
 img {
@@ -24,6 +29,8 @@ h1 {
 	padding: 20px;
 	color: white;
 }
+
+/* de navigatie bar*/
 
 #navbar ul { 
 	margin: 0; 
@@ -49,3 +56,17 @@ h1 {
 	background-color: #fff;
 	border-radius: 15px;
 	}
+	
+/* proberen met flexbox te werken zodat ik blog dingen kan maken */
+	
+.flex-container {
+	display: flex;
+	background-image: linear-gradient(to right, #8ef26b, #00eea5, #00e4d6, #00d5f6, #00c3fd, #40b8ff, #67acfe, #879ff6, #9196ff, #a28aff, #b87aff, #d066ff);
+	
+	padding: 10px;
+}
+
+#blogpost {
+	width: 30%;
+	background: white;
+}
